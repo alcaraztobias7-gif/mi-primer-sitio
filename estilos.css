@@ -1,0 +1,121 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    color: #22222;
+}
+
+/* Encabezado */
+
+header {
+    background-color: #d00000;
+    color: ff3333;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* Menú */
+
+nav {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Cambia el color cuando pasamos el mouse */
+
+nav a:hover {
+    color: #000000;
+}
+
+/* Contenido principal */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* Secciones */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #cccccc;
+}
+
+/* Artículos */
+
+article {
+    margin-bottom: 10px;
+}
+
+/* Imagen */
+
+article img {
+    width: 150px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Listas */
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Información adicional */
+
+aside {
+    background-color: #dddddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid #d00000;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Adaptación para celulares */
+
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    article img {
+        width: 140px;
+    }
+
+    main {
+        width: 95%;
+    }
+}
